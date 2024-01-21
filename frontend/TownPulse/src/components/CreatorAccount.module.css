@@ -1,0 +1,37 @@
+.divider {
+    margin: 10 8;
+    background-color: rebeccapurple;
+}
+
+.container {
+    max-width: 100%; 
+  
+}
+
+.result {
+    text-align: center;
+    margin-top: 24px;
+}
+.creatorAccH3{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.result.success {
+    color: green;
+}
+
+.result.error {
+    color: red;
+}
+
+.aplicabuton{
+    border-radius: 7px;
+    height: 30px;
+    width: 100px;
+    font-family: 'Montserrat', sans-serif;
+   
+ }
+ .dejaCreator{
+
+ }

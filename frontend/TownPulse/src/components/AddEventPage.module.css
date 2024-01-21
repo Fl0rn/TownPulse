@@ -1,0 +1,63 @@
+.Bdiv{
+    display: flex;
+    justify-content: center;
+}
+.addEvForm p{
+    display: flex;
+    flex-direction: column;
+    min-width: 599px;
+    padding: 7px 0px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.addEvForm input{
+    max-width: 600px;
+
+}
+.optionStyle {
+    padding: 8px 12px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    
+    &:hover {
+      background-color: #f0f0f0;
+    }
+  }
+  
+.addEvFormDesc{
+    height: 70px;
+    line-height: 3;
+}
+.addEventSelect{
+    max-width: 378px;
+    margin-left: 110px;
+    margin-top: 6px;
+    height: 35px;
+    border-radius: 7px;
+    border:#000000 solid 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+.addEvLabel{
+    text-align: left;
+    margin-left: 110px;
+}
+.addEvBtn{
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 7px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+}
+
+.addEvBtn:hover{
+    background-color:#00003B;
+    color:white;
+}
